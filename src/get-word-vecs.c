@@ -31,7 +31,8 @@ int main(int argc, char **argv) {
   float *M;
   char *vocab;
   if (argc < 2) {
-    printf("Usage: ./get-word-vecs <FILE>\nwhere FILE contains word projections in the BINARY FORMAT\n");
+    printf("Usage: ./get-word-vecs <FILE> > outputfile\nwhere FILE contains word projections in the BINARY FORMAT.\n");
+    printf("        It will dump the word-vectors for each word in the dictionary. (Attention huge output)\n");
     return 0;
   }
   strcpy(file_name, argv[1]);

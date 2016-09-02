@@ -38,5 +38,7 @@ Usually, the other hyper-parameters such as the learning rate do not need to be 
 The script demo-word.sh downloads a small (100MB) text corpus from the web, and trains a small word vector model. After the training
 is finished, the user can interactively explore the similarity of the words.
 
+Georg Martius: I added a small program (get-word-vecs) to dump the word vectors explicity into ascii format to load them somewhere else.
+
 More information about the scripts is provided at https://code.google.com/p/word2vec/
 
